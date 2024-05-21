@@ -1,8 +1,8 @@
-import jsonServer from "json-server";
+const jsonServer = require("json-server");
 const server = jsonServer.create();
 const router = jsonServer.router("db.json");
 const middleWare = jsonServer.defaults();
-const port = 8000;
+const port = process.env.PORT || 8000;
 
 
 server.use(middleWare);
