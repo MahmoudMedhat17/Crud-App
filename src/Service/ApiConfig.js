@@ -1,4 +1,4 @@
-const URL = "http://localhost:8000/";
+const URL = "https://jsonserver-590t.onrender.com/";
 
 export const ApiConfig = {
     user: `${URL}users`,
